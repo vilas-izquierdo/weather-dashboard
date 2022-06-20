@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Weather Forecast</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Weather Forecast</h1>
+    </header>
+
+    <section>
+      <div class="row">
+        <form class="col-2">
+          <div class="form-group">
+            <h2 for="search">Enter City:</h2>
+            <input type="text" class="form-control search" id="search" />
+          </div>
+          <button type="button" id="fetch" class="btn-block btn-primary btn-lg">
+            Search
+          </button>
+        </form>
+        <div class="card col-lg-10" id="current">
+          <div id="today" class="card-body"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="2">
+      <div class="row">
+        <div class="col-2">
+          <div class="history"></div>
+        </div>
+
+        <div class="card col-2 card" style="width: 18rem">
+          <div class="card-body">
+            <div id="firstDate class="card-title"></div>
+            <div id="first" class="card-body"></div>
+          </div>
+        </div>
+        <div class="card col-2 card" style="width: 18rem">
+          <div class="card-body">
+            <div id="secondDate" class="card-title"></div>
+            <div id="second" class="card-body"></div>
+          </div>
+        </div>
+        <div class="card col-2 card" style="width: 18rem">
+          <div class="card-body">
+            <div id="thirdDate" class="card-title"></div>
+            <div id="third" class="card-body"></div>
+          </div>
+        </div>
+        <div class="card col-2 card" style="width: 18rem">
+          <div class="card-body">
+            <div id="fourthDate" class="card-title"></div>
+            <div id="fourth" class="card-body"></div>
+          </div>
+        </div>
+        <div class="card col-2 card" style="width: 18rem">
+          <div class="card-body">
+            <div id="fifthDate" class="card-title"></div>
+            <div id="fifth" class="card-body"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+
+
+header {
+    display: block;
+    background-color: rgb(188, 119, 125);
+    color: rgb(0, 0, 0);
+}
+
+#fetch {
+    background-color: red;
+    border-color: black;
+}
+
+#current {
+    background-color: rgb(213, 188, 188);
+}
+h1 {
+    padding: 20px;
+}
+
+.card {
+    background-color: rgb(250, 249, 250);
+    color: rgb(0, 0, 0);
+}
